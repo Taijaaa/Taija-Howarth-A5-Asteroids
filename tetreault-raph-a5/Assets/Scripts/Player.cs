@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     {
         // Spawn bullet on mouse click
         int leftClickID = 0;
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             // Bullet transform information when spawned
             Vector3 pos = transform.position + transform.up;
