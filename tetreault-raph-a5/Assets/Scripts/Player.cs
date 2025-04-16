@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float thrust = 3;
+    [SerializeField] private float thrust = 15;
     [SerializeField] private float rotationSpeed = 360;
     [SerializeField] private float maxVelocity = 15;
     [SerializeField] private float bulletSpeed = 3;
